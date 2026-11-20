@@ -51,9 +51,9 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 .reveal a:focus-visible, .reveal button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 .reveal code, .reveal .mono { font-family: var(--font-mono); font-size: 0.9em; }
 .reveal :not(pre) > code { background: var(--card); border: 1px solid var(--line); padding: 0.05em 0.3em; border-radius: 4px; }
-.reveal pre { width: 100%; margin: 0.4em 0; box-shadow: none; font-size: 0.6em; }
+.reveal pre { width: 100%; margin: 0.4em 0; box-shadow: none; font-size: 0.72em; }
 .reveal pre code { display: block; padding: 0.8em 1em; background: var(--card); border: 1px solid var(--line); border-radius: 6px; color: var(--ink); max-height: none; line-height: 1.45; }
-.reveal table { border-collapse: collapse; font-size: 0.62em; width: 100%; }
+.reveal table { border-collapse: collapse; font-size: 0.78em; width: 100%; }
 .reveal th, .reveal td { text-align: left; padding: 0.45em 0.7em; border-bottom: 1px solid var(--line); vertical-align: top; }
 .reveal th { font-family: var(--font-mono); font-weight: 500; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 .reveal tr.hl td { background: var(--card); font-weight: 600; }
@@ -62,15 +62,15 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 .reveal .slide-number { background: transparent; color: var(--muted); font-family: var(--font-mono); font-size: 14px; }
 
 /* Eyebrow: section and clock time */
-.eyebrow { font-family: var(--font-mono); font-size: 0.5em; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); display: flex; gap: 1.2em; margin-bottom: 1.1em; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.6em; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); display: flex; gap: 1.2em; margin-bottom: 1.1em; }
 .eyebrow b { color: var(--accent); font-weight: 600; }
-.small { font-size: 0.7em; }
+.small { font-size: 0.85em; }
 .muted { color: var(--muted); }
-.source { position: absolute; bottom: 0.4em; left: 8px; font-size: 0.42em; color: var(--muted); font-family: var(--font-mono); }
+.source { position: absolute; bottom: 0.4em; left: 8px; font-size: 0.5em; color: var(--muted); font-family: var(--font-mono); }
 .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4em; }
 .cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1em; }
 .cols > *, .cols3 > * { min-width: 0; }
-.box { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0.8em 1em; font-size: 0.72em; }
+.box { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0.8em 1em; font-size: 0.88em; }
 .box ul { gap: 0.25em; }
 .reveal .kicker { font-family: var(--font-display); font-weight: 700; font-size: 1.05em; color: var(--accent); margin-top: 1em; }
 .big-quote { font-family: var(--font-display); font-size: 1.5em; font-weight: 700; line-height: 1.15; max-width: 20em; }
@@ -79,10 +79,10 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 .title-slide .logo { position: absolute; top: 0; right: 0; width: 240px; color: var(--logo); }
 .title-slide .logo svg { display: block; width: 100%; height: auto; fill: currentColor; }
 .title-slide h1 { max-width: 11em; }
-.tag { display: inline-block; font-family: var(--font-mono); font-size: 0.48em; letter-spacing: 0.14em; text-transform: uppercase; border: 1.5px solid var(--accent); color: var(--accent); padding: 0.3em 0.7em; border-radius: 999px; margin-bottom: 1.2em; }
+.tag { display: inline-block; font-family: var(--font-mono); font-size: 0.56em; letter-spacing: 0.14em; text-transform: uppercase; border: 1.5px solid var(--accent); color: var(--accent); padding: 0.3em 0.7em; border-radius: 999px; margin-bottom: 1.2em; }
 
 /* Agenda timeline */
-.timeline { display: grid; grid-template-columns: 5.2em 1fr auto; font-size: 0.66em; }
+.timeline { display: grid; grid-template-columns: 5.2em 1fr auto; font-size: 0.82em; }
 .timeline > div { padding: 0.42em 0; border-bottom: 1px solid var(--line); }
 .timeline .t { font-family: var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
 .timeline .d { font-family: var(--font-mono); color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
@@ -92,27 +92,27 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 /* Section divider */
 .divider .num { font-family: var(--font-mono); color: var(--accent); font-size: 0.6em; letter-spacing: 0.14em; }
 .divider h2 { font-size: 2.6em; font-weight: 800; margin-top: 0.2em; }
-.divider p { color: var(--muted); font-size: 0.8em; }
+.divider p { color: var(--muted); font-size: 1em; }
 
 /* Flow of AI Unified Process steps */
 
 /* Workflow diagrams */
 .diagram { background: var(--diagram-bg); border: 1px solid var(--line); border-radius: 8px; padding: 0.5em 0.8em; display: flex; justify-content: center; }
-.diagram img { max-width: 100%; max-height: 400px; margin: 0; display: block; }
-.diagram-note { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2em; font-size: 0.72em; line-height: 1.4; margin-top: 0.7em; }
+.diagram img { max-width: 100%; max-height: 460px; margin: 0; display: block; }
+.diagram-note { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2em; font-size: 0.85em; line-height: 1.4; margin-top: 0.7em; }
 .diagram-note > div { min-width: 0; }
 .diagram-note b { display: block; font-family: var(--font-display); color: var(--accent); font-size: 1.05em; line-height: 1.25; margin-bottom: 0.3em; }
 
 /* Harness components around the agent */
 .harness { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.6em; }
 .harness > * { min-width: 0; }
-.harness .box { font-size: 0.66em; }
+.harness .box { font-size: 0.82em; }
 .harness .agent { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; background: var(--accent); color: var(--paper); font-family: var(--font-display); font-weight: 800; font-size: 0.95em; border-radius: 999px; padding: 0.5em 1em; }
 
 /* Guides and sensors diagram */
 .gs { display: grid; grid-template-columns: 1fr 110px 210px 120px 1.1fr; align-items: center; margin-top: 0.4em; }
 .gs > * { min-width: 0; }
-.gs .box { font-size: 0.64em; display: grid; gap: 0.25em; }
+.gs .box { font-size: 0.74em; display: grid; gap: 0.25em; }
 .gs .box p { margin: 0 0 0.3em; }
 .gs-guides { padding: 1.2em 1.1em; }
 .gs-sensors { display: grid; gap: 30px; }
@@ -122,7 +122,7 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 .gs-arrow polygon { fill: var(--muted); }
 
 /* Use case document */
-.uc { font-family: var(--font-mono); font-size: 0.5em; line-height: 1.5; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1em 1.2em; white-space: pre-wrap; }
+.uc { font-family: var(--font-mono); font-size: 0.62em; line-height: 1.5; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1em 1.2em; white-space: pre-wrap; }
 .uc .h { color: var(--accent); font-weight: 600; }
 
 /* Hands-on slides: amber work order */
@@ -136,7 +136,7 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 .cmd { display: grid; gap: 0.35em; margin: 0.4em 0 0.9em; }
 .cmd code { font-family: var(--font-mono); font-size: 0.95em; font-weight: 600; background: var(--lab-ink); color: var(--lab); padding: 0.35em 0.7em; border-radius: 6px; width: fit-content; border: 0; }
 .cmd code.alt { background: transparent; color: var(--lab-ink); border: 2px solid var(--lab-ink); }
-.lab-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; font-size: 0.66em; }
+.lab-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; font-size: 0.85em; }
 .lab-grid > div { border-top: 2px solid var(--lab-ink); padding-top: 0.5em; min-width: 0; }
 .lab-grid h3 { font-family: var(--font-mono); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; }
 .lab-grid ul { gap: 0.2em; }
@@ -156,22 +156,23 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 .about .books { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; }
 .about figure { margin: 0; text-align: center; }
 .about figure img { height: 340px; width: auto; margin: 0 auto; display: block; box-shadow: 0 4px 14px rgba(0,0,0,.25); }
-.about figcaption { font-size: 0.55em; margin-top: 0.7em; line-height: 1.4; }
+.about figcaption { font-size: 0.66em; margin-top: 0.7em; line-height: 1.4; }
 
 /* Risk-based review */
 .review { display: grid; grid-template-columns: 1.15fr 1fr; gap: 1.4em; align-items: start; }
-.review .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.45em; font-size: 0.68em; line-height: 1.35; }
-.review .steps li { display: grid; grid-template-columns: 2em 1fr; gap: 0.7em; align-items: start; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0.5em 0.8em; }
+.review .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3em; font-size: 0.68em; line-height: 1.35; }
+.review .steps li { display: grid; grid-template-columns: 2em 1fr; gap: 0.7em; align-items: start; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0.4em 0.8em; }
 .review .steps li b { display: block; font-family: var(--font-display); }
 .review .steps .n { font-family: var(--font-mono); font-weight: 600; color: var(--accent); border: 2px solid var(--accent); border-radius: 50%; width: 1.7em; height: 1.7em; display: grid; place-items: center; }
 .review .steps li.human { border-color: var(--accent); border-width: 2px; }
-.review .side { display: grid; gap: 0.8em; }
+.review .side { display: grid; gap: 0.5em; }
+.review .box { font-size: 0.78em; }
 .review .tiers { display: grid; gap: 0.35em; }
 .review .tier { display: inline-grid; place-items: center; width: 1.5em; height: 1.5em; margin-right: 0.5em; border-radius: 4px; background: var(--accent); color: var(--paper); font-family: var(--font-mono); font-weight: 600; }
 
 /* Contact list on the closing slide */
 .reveal .contact-name { font-family: var(--font-display); font-weight: 600; font-size: 0.9em; margin: 1.2em 0 0.7em; }
-.contacts { display: grid; grid-template-columns: max-content 1fr; column-gap: 1.4em; row-gap: 0.55em; margin: 0; font-size: 0.72em; line-height: 1.3; }
+.contacts { display: grid; grid-template-columns: max-content 1fr; column-gap: 1.4em; row-gap: 0.55em; margin: 0; font-size: 0.85em; line-height: 1.3; }
 .contacts dt { color: var(--muted); font-family: var(--font-mono); font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; align-self: center; }
 .contacts dd { margin: 0; }
 
@@ -258,7 +259,15 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
       <ul>
         <li>JDK 25 and Claude Code (Copilot CLI or Codex also work)</li>
         <li><code>git clone</code> the repository</li>
-        <li>Open <code>claude</code> in the project and accept the AI Unified Process plugins it offers</li>
+        <li>Open <code>claude</code> in the project and accept the plugins it offers, or install them:</li>
+      </ul>
+      <pre style="font-size:0.57em"><code>/plugin marketplace add ai-unified-process/marketplace
+/plugin install aiup-core@ai-unified-process-marketplace
+/plugin install aiup-flyway@ai-unified-process-marketplace
+/plugin install aiup-jooq@ai-unified-process-marketplace
+/plugin install aiup-spring-boot@ai-unified-process-marketplace
+/plugin install aiup-vaadin@ai-unified-process-marketplace</code></pre>
+      <ul>
         <li>Check: <code>./mvnw spring-boot:run</code></li>
       </ul>
     </div>
@@ -349,7 +358,7 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 <section>
   <div class="eyebrow"><b>AI Unified Process</b><span>10:28</span></div>
   <h2>AI Unified Process at a glance</h2>
-  <div class="diagram"><img src="aiup-workflow.svg" style="max-height:540px" alt="The skills of the AI Unified Process by phase: /requirements in Inception; /entity-model, /use-case-diagram, the optional /business-process, and /stack in Elaboration; /use-case-spec, /use-case-implement, /use-case-test, /use-case-coverage, /test-case and /test-case-implement in Construction; /acceptance-protocol, /user-guide and /release-notes in Transition. /spec-review, /next, /open-questions and /reverse-engineer run at any point."></div>
+  <div class="diagram"><img src="aiup-workflow.svg" style="max-height:none; width:100%" alt="The skills of the AI Unified Process by phase: /requirements in Inception; /entity-model, /use-case-diagram, the optional /business-process, and /stack in Elaboration; /use-case-spec, /use-case-implement, /use-case-test, /use-case-coverage, /test-case and /test-case-implement in Construction; /acceptance-protocol, /user-guide and /release-notes in Transition. /spec-review, /next, /open-questions and /reverse-engineer run at any point."></div>
   <aside class="notes">
     Iterative: one use case at a time, from spec to tested code.
     Every step is a skill with a template, so the output has the same structure every time.
@@ -361,7 +370,7 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 <section>
   <div class="eyebrow"><b>AI Unified Process</b><span>10:30</span></div>
   <h2>Greenfield workflow</h2>
-  <div class="diagram"><img src="greenfield.png" style="max-height:340px" alt="The requirements engineer creates use cases and the entity model. The AI agent reads them, using skills, MCP and guidelines, and generates code and tests. The software engineer reviews the use case, the code and the tests."></div>
+  <div class="diagram"><img src="greenfield.png" style="max-height:330px" alt="The requirements engineer creates use cases and the entity model. The AI agent reads them, using skills, MCP and guidelines, and generates code and tests. The software engineer reviews the use case, the code and the tests."></div>
   <div class="diagram-note">
     <div><b>Humans write the spec</b>The requirements engineer creates use cases and the entity model.</div>
     <div><b>The agent builds</b>It reads the spec and generates code and tests, steered by skills, MCP and guidelines.</div>
@@ -373,7 +382,7 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 <section>
   <div class="eyebrow"><b>AI Unified Process</b><span>10:32</span></div>
   <h2>Brownfield workflow</h2>
-  <div class="diagram"><img src="brownfield.png" style="max-height:340px" alt="The AI agent reads the code, tests and documentation of the existing system and generates use cases and the entity model. The software engineer and the requirements engineer review them."></div>
+  <div class="diagram"><img src="brownfield.png" style="max-height:290px" alt="The AI agent reads the code, tests and documentation of the existing system and generates use cases and the entity model. The software engineer and the requirements engineer review them."></div>
   <div class="diagram-note">
     <div><b>The agent reads</b>Code, tests and documentation of the existing system.</div>
     <div><b>The agent writes the spec</b><code>/reverse-engineer</code> generates use cases and the entity model.</div>
@@ -386,11 +395,11 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
   <h2>Why use cases?</h2>
   <div class="cols" style="grid-template-columns: 1.1fr 1fr; align-items: start">
     <div>
-      <div class="diagram"><img src="use-case-diagram.png" alt="Use case diagram: the actor Clinic User uses UC-003 Register New Owner and UC-004 Find Owner in the PetClinic system." style="max-height:300px"></div>
+      <div class="diagram"><img src="use-case-diagram.png" alt="Use case diagram: the actor Clinic User uses UC-003 Register New Owner and UC-004 Find Owner in the PetClinic system." style="max-height:400px"></div>
       <p class="small muted" style="margin-top:0.5em">The diagram: who uses the system for which goal</p>
     </div>
     <div>
-      <div class="diagram"><img src="use-case-structure.png" alt="Structure of a use case: overview with ID, name, actors, goal and status; preconditions; main success scenario; optional alternative flows; postconditions." style="max-height:300px"></div>
+      <div class="diagram"><img src="use-case-structure.png" alt="Structure of a use case: overview with ID, name, actors, goal and status; preconditions; main success scenario; optional alternative flows; postconditions." style="max-height:400px"></div>
       <p class="small muted" style="margin-top:0.5em">The specification: one document per use case in a clearly structured format, based on the work of Ivar Jacobson and Alistair Cockburn</p>
     </div>
   </div>
@@ -566,7 +575,7 @@ BR-001 A reservation is at least one night.</div>
     <tr class="hl"><td>UI</td><td>Vaadin Flow 25</td><td><code>vaadin-flow-ui</code></td><td><code>vaadin-flow-ui-test</code></td></tr>
     <tr><td>E2E</td><td>Playwright, Drama Finder</td><td>–</td><td><code>vaadin-e2e-test</code></td></tr>
   </table>
-  <ul style="margin-top:0.9em; font-size:0.72em">
+  <ul style="margin-top:0.9em; font-size:0.88em">
     <li><code>/use-case-implement</code> runs the skills bottom-up, as recorded in <code>docs/architecture/stack.md</code></li>
     <li>The stack file is executable architecture. Choosing a plugin is an architecture decision</li>
     <li>The first use case sets the style: the skills follow the patterns they find</li>
@@ -761,7 +770,7 @@ BR-001 A reservation is at least one night.</div>
       </div>
     </div>
   </div>
-  <p class="small muted" style="margin-top:0.8em">Steps 1–4 are automated, step 5 is human only where the risk needs it.<br>Source: <a href="https://claude.dev/blog/solving-code-review-at-anthropic" target="_blank" rel="noopener">claude.dev/blog/solving-code-review-at-anthropic</a></p>
+  <p class="small muted" style="margin-top:0.5em">Steps 1–4 are automated, step 5 is human only where the risk needs it.<br>Source: <a href="https://claude.dev/blog/solving-code-review-at-anthropic" target="_blank" rel="noopener">claude.dev/blog/solving-code-review-at-anthropic</a></p>
 </section>
 
 <section>
