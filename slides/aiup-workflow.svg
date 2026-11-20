@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 590" width="1240" height="590" role="img" aria-labelledby="t d">
+<title id="t">AI Unified Process workflow</title>
+<desc id="d">The skills of the AI Unified Process by phase: /requirements in Inception; /entity-model, /use-case-diagram, the optional /business-process, and /stack in Elaboration, where /stack is the base for /use-case-implement and /use-case-test; /use-case-spec, /use-case-implement, /use-case-test, /use-case-coverage, /test-case and /test-case-implement in Construction; /acceptance-protocol, /user-guide and /release-notes in Transition. /spec-review, /next, /open-questions and /reverse-engineer run at any point.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="1240" height="590" fill="#ffffff"/>
+<rect x="20" y="20" width="190" height="470" rx="12" fill="#EEF6FE" stroke="#BBDEFB" stroke-width="1.5"/>
+<path d="M20,32 a12,12 0 0 1 12,-12 H198 a12,12 0 0 1 12,12 V68 H20 z" fill="#BBDEFB"/>
+<text x="115.0" y="42" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0D4372">Inception</text>
+<text x="115.0" y="59" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#0D4372" opacity="0.85">vision to requirements</text>
+<rect x="230" y="20" width="240" height="470" rx="12" fill="#F1F8F1" stroke="#C8E6C9" stroke-width="1.5"/>
+<path d="M230,32 a12,12 0 0 1 12,-12 H458 a12,12 0 0 1 12,12 V68 H230 z" fill="#C8E6C9"/>
+<text x="350.0" y="42" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#205022">Elaboration</text>
+<text x="350.0" y="59" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#205022" opacity="0.85">model the domain and the system</text>
+<rect x="490" y="20" width="470" height="470" rx="12" fill="#FFF3F4" stroke="#FFCDD2" stroke-width="1.5"/>
+<path d="M490,32 a12,12 0 0 1 12,-12 H948 a12,12 0 0 1 12,12 V68 H490 z" fill="#FFCDD2"/>
+<text x="725.0" y="42" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#831311">Construction</text>
+<text x="725.0" y="59" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#831311" opacity="0.85">per use case</text>
+<rect x="980" y="20" width="240" height="470" rx="12" fill="#FFF7EC" stroke="#FFE0B2" stroke-width="1.5"/>
+<path d="M980,32 a12,12 0 0 1 12,-12 H1208 a12,12 0 0 1 12,12 V68 H980 z" fill="#FFE0B2"/>
+<text x="1100.0" y="42" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#6B3C00">Transition</text>
+<text x="1100.0" y="59" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#6B3C00" opacity="0.85">hand the system over</text>
+<rect x="35" y="98.0" width="160" height="52" rx="8" fill="#ffffff" stroke="#0D4372" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="115.0" y="121" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">docs/vision.md</text>
+<text x="115.0" y="138" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">written by the team</text>
+<rect x="35" y="182.0" width="160" height="52" rx="8" fill="#ffffff" stroke="#0D4372" stroke-width="1.6"/>
+<text x="115.0" y="205" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/requirements</text>
+<text x="115.0" y="222" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">requirements, glossary</text>
+<rect x="245" y="98.0" width="210" height="52" rx="8" fill="#ffffff" stroke="#205022" stroke-width="1.6"/>
+<text x="350.0" y="121" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/entity-model</text>
+<text x="350.0" y="138" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">entity_model.md</text>
+<rect x="245" y="182.0" width="210" height="52" rx="8" fill="#ffffff" stroke="#205022" stroke-width="1.6"/>
+<text x="350.0" y="205" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/use-case-diagram</text>
+<text x="350.0" y="222" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">use_cases.puml</text>
+<rect x="245" y="266.0" width="210" height="52" rx="8" fill="#ffffff" stroke="#205022" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="350.0" y="289" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/business-process</text>
+<text x="350.0" y="306" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">BP-*.bpmn · optional</text>
+<rect x="245" y="434.0" width="210" height="52" rx="8" fill="#ffffff" stroke="#205022" stroke-width="1.6"/>
+<text x="350.0" y="457" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/stack</text>
+<text x="350.0" y="474" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">architecture/stack.md</text>
+<rect x="505" y="98.0" width="200" height="52" rx="8" fill="#ffffff" stroke="#831311" stroke-width="1.6"/>
+<text x="605.0" y="121" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/use-case-spec</text>
+<text x="605.0" y="138" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">use_cases/UC-*.md</text>
+<rect x="505" y="350.0" width="200" height="52" rx="8" fill="#ffffff" stroke="#831311" stroke-width="1.6"/>
+<text x="605.0" y="373" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/test-case</text>
+<text x="605.0" y="390" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">test_cases/TC-*.md</text>
+<rect x="745" y="98.0" width="200" height="52" rx="8" fill="#ffffff" stroke="#831311" stroke-width="1.6"/>
+<text x="845.0" y="121" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/use-case-implement</text>
+<text x="845.0" y="138" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">code, layer by layer</text>
+<rect x="745" y="182.0" width="200" height="52" rx="8" fill="#ffffff" stroke="#831311" stroke-width="1.6"/>
+<text x="845.0" y="205" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/use-case-test</text>
+<text x="845.0" y="222" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">tests from the spec</text>
+<rect x="745" y="266.0" width="200" height="52" rx="8" fill="#ffffff" stroke="#831311" stroke-width="1.6"/>
+<text x="845.0" y="289" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/use-case-coverage</text>
+<text x="845.0" y="306" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">coverage matrix</text>
+<rect x="745" y="350.0" width="200" height="52" rx="8" fill="#ffffff" stroke="#831311" stroke-width="1.6"/>
+<text x="845.0" y="373" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/test-case-implement</text>
+<text x="845.0" y="390" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">end-to-end journey</text>
+<rect x="995" y="266.0" width="190" height="52" rx="8" fill="#ffffff" stroke="#6B3C00" stroke-width="1.6"/>
+<text x="1090.0" y="289" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/acceptance-protocol</text>
+<text x="1090.0" y="306" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">sets use cases to Done</text>
+<rect x="995" y="350.0" width="190" height="52" rx="8" fill="#ffffff" stroke="#6B3C00" stroke-width="1.6"/>
+<text x="1090.0" y="373" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/user-guide</text>
+<text x="1090.0" y="390" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">user_guide/</text>
+<rect x="995" y="434.0" width="190" height="52" rx="8" fill="#ffffff" stroke="#6B3C00" stroke-width="1.6"/>
+<text x="1090.0" y="457" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600" fill="#0a0e1a">/release-notes</text>
+<text x="1090.0" y="474" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">release-notes.md</text>
+<path d="M115,150.0 V181.0" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M195,208 H220 V124 H243" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M350,150.0 V181.0" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M350,234.0 V265.0" fill="none" stroke="#475569" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<path d="M455,208 H480 V124 H503" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M455,292 H480 V376 H503" fill="none" stroke="#475569" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<path d="M725,388 V364" fill="none" stroke="#FFF3F4" stroke-width="7"/>
+<path d="M455,460 H725 V136 H743" fill="none" stroke="#64748b" stroke-width="1.6" stroke-dasharray="1.5 4" stroke-linecap="round" marker-end="url(#a)"/>
+<path d="M725,208 H743" fill="none" stroke="#64748b" stroke-width="1.6" stroke-dasharray="1.5 4" stroke-linecap="round" marker-end="url(#a)"/>
+<text x="475" y="452" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">layers and their skills</text>
+<path d="M605,150.0 V349.0" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M705,114 H743" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M845,150.0 V181.0" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M845,234.0 V265.0" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M705,376 H743" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M945,292 H993" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M945,376 H970 V292 H993" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M1090,318.0 V349.0" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M1185,292 H1205 V460 H1187" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="615" y="244.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#831311" opacity="0.8">journeys chain</text>
+<text x="615" y="258.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#831311" opacity="0.8">several use cases</text>
+<rect x="20" y="510" width="1200" height="60" rx="12" fill="#fafaf9" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="44" y="545" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#334155">At any point</text>
+<text x="175" y="545" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#475569"><tspan font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#0a0e1a">/spec-review</tspan><tspan dx="6">checks the specs</tspan></text>
+<text x="437" y="545" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#475569"><tspan font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#0a0e1a">/next</tspan><tspan dx="6">names the next step</tspan></text>
+<text x="699" y="545" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#475569"><tspan font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#0a0e1a">/open-questions</tspan><tspan dx="6">gaps, not guesses</tspan></text>
+<text x="961" y="545" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#475569"><tspan font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#0a0e1a">/reverse-engineer</tspan><tspan dx="6">from existing code</tspan></text>
+</svg>

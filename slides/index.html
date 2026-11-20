@@ -95,13 +95,6 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 .divider p { color: var(--muted); font-size: 0.8em; }
 
 /* Flow of AI Unified Process steps */
-.flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5em; font-size: 0.62em; }
-.flow > div { border-top: 4px solid var(--accent); background: var(--card); padding: 0.7em 0.8em; border-radius: 0 0 6px 6px; min-width: 0; }
-.flow > div.done { border-top-color: var(--line); color: var(--muted); }
-.flow b { font-family: var(--font-display); display: block; font-size: 1.15em; margin-bottom: 0.3em; color: var(--ink); }
-.flow .done b { color: var(--muted); }
-.flow code { display: block; width: fit-content; max-width: 100%; box-sizing: border-box; font-size: 0.8em; margin-top: 0.35em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.flow .what { display: block; margin-bottom: 0.2em; }
 
 /* Workflow diagrams */
 .diagram { background: var(--diagram-bg); border: 1px solid var(--line); border-radius: 8px; padding: 0.5em 0.8em; display: flex; justify-content: center; }
@@ -356,17 +349,12 @@ body { background: var(--paper); color: var(--ink); margin: 0; }
 <section>
   <div class="eyebrow"><b>AI Unified Process</b><span>10:28</span></div>
   <h2>AI Unified Process at a glance</h2>
-  <div class="flow">
-    <div class="done"><b>Vision &amp; requirements</b><span class="what">vision, requirements, glossary <i>(prepared for you today)</i></span><code>/requirements</code></div>
-    <div><b>Specification</b><span class="what">use case diagram, use cases, entity model, review</span><code>/use-case-diagram</code><code>/entity-model</code><code>/use-case-spec</code><code>/spec-review</code></div>
-    <div><b>Construction</b><span class="what">the agent generates code layer by layer</span><code>/use-case-implement</code></div>
-    <div><b>Verification</b><span class="what">tests and coverage against the spec</span><code>/use-case-test</code><code>/use-case-coverage</code></div>
-  </div>
-  <ul style="margin-top:1.2em; font-size:0.8em">
-    <li>Iterative: one use case at a time, from spec to tested code</li>
-    <li>Every step is a skill with a template, so the output has the same structure every time</li>
-    <li>Traceable: requirement → use case → business rule → code → test</li>
-  </ul>
+  <div class="diagram"><img src="aiup-workflow.svg" style="max-height:540px" alt="The skills of the AI Unified Process by phase: /requirements in Inception; /entity-model, /use-case-diagram, the optional /business-process, and /stack in Elaboration; /use-case-spec, /use-case-implement, /use-case-test, /use-case-coverage, /test-case and /test-case-implement in Construction; /acceptance-protocol, /user-guide and /release-notes in Transition. /spec-review, /next, /open-questions and /reverse-engineer run at any point."></div>
+  <aside class="notes">
+    Iterative: one use case at a time, from spec to tested code.
+    Every step is a skill with a template, so the output has the same structure every time.
+    Traceable: requirement → use case → business rule → code → test.
+  </aside>
   <div class="source"><a href="https://unifiedprocess.ai" target="_blank" rel="noopener">unifiedprocess.ai</a></div>
 </section>
 
